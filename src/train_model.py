@@ -6,9 +6,7 @@ from src.data_loader import load_mnist_data
 def create_model():
     """
     Defines the CNN model architecture.
-
-    Returns:
-        Sequential: Compiled CNN model.
+    Returns: Sequential: Compiled CNN model.
     """
     model = Sequential([
         Conv2D(32, (3, 3), activation="relu", input_shape=(28, 28, 1)),
