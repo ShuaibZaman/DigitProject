@@ -8,8 +8,8 @@ DigitProject/
 ├── src/
 │   ├── data_loader.py             # Loads the MNIST dataset
 │   ├── train.py                   # Trains the model
-│   ├── evaluate.py                # Evaluates the trained model
-│   └── predict.py                 # Predicts using the trained model
+│   ├── predict.py                 # Predicts using the trained model
+│   └── evaluate.py                # Evaluates the trained model
 ├── README.md                      # Project documentation
 ├── requirements.txt               # Python dependencies
 └── .gitignore                     # Git ignore file
